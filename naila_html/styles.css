@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+menu{
+	margin:5;
+	width:550px;
+	font-size:18px;
+	font-family:Tahoma;
+	text-align:center;
+	background-color:light blue;
+	border:8px solid red;
+	overflow:hidden;
+}
+li{
+	float:left;
+}
+a{
+	display:block;
+	width:100px;
+}
+canvas#canvas{
+	background-color:#A23BEC;
+	float:right;
+	border:3px solid black;
+}
+a.a1{
+	overflow:hidden;
+	border:3px dashed white;
+	margin:5px;
+	float:right;
+}
+body{
+	background-image:url("https://s-media-cache-ak0.pinimg.com/originals/03/54/66/03546671c74d6d7f759a47ad7617866e.jpg");
+	color:white;	
+}
+@media screen and (min-width: 880px) {
+	body{
+		background-image:url("http://www.hdwallpapersnew.net/wp-content/uploads/2015/03/fabulous-sunset-in-maldives-beautiful-image-high-quality-desktop-wallpaper-for-background-full-free.jpg");
+	}
+}
+div#quote{
+	margin:5px;
+	border:1px solid black;
+	opacity:0.6;
+	background-color:#ffffff;
+}
+div#quote p{
+	margin:5%;
+	color:#000000;
+	text-align:center;
+}
+table#videos,td,th{
+	border:1px solid white;
+}
+td{
+	padding:15px;
+}
+figure#calvin1{
+	float:right;
+}
+img#calvin{
+	float:right;
+	margin: 0 0 10px 10px;
+	border:10px solid black;
+	-webkit-animation:cal 10s infinite;
+	animation:cal 10s infinite;
+	transform:rotate(10deg);
+}
+@-webkit-keyframes cal{
+	50%{border-color:#FF0066;}
+}
+@keyframes cal{
+	50%{border-color:#FF0066;}
+}
+#memories{
+	text-shadow: 0 0 3px #E8C6FF, 0 0 5px #A827FE;
+}
+div#button{
+	text-align:center;
+}
+img#ihls{
+	float:right;
+	border:5px solid black;
+	filter:xray();
+	-webkit-animation:ihls 5s infinite;
+	animation: ihls 5s infinite;
+}
+@-webkit-keyframes ihls{
+	50%{border-color:red;}
+}
+@keyframes ihls{
+	50%{border-color:red;}
+}
+
+button#welcome{
+	padding:8px 8px 8px 17px;
+	border:3px solid black;
+	background:#dcdcdc url(/home/user/naila_html/click.png) no-repeat scroll 5px;
+}
+figure#vhs1{
+	float:right;
+} 
+img#vhs{
+	float:right;
+	border:5px solid purple;
+	-webkit-animation:vhs2 5s infinite;
+	animation:vhs2 5s infinite;
+}
+@-webkit-keyframes vhs2{
+	50%{border-color:yellow;}
+}
+@keyframes vhs2{
+	50%{border-color:yellow;}
+}
+a:visited{
+	color:white;
+}
+a:hover{
+	color:yellow;
+}
+a:active{
+	color:grey;
+}
+a:link{
+	color:white;
+}
+
+</style>
+</head>
+</html>
